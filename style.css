@@ -71,7 +71,7 @@ p {
   /* フォント色を黒色に設定 */
   color: #000000 !important;
 
-} 
+}
 
 /* Bootstrapのボタンに初期設定されている周囲のborder(枠線)を消す */
 .navbar-toggler {
@@ -318,19 +318,21 @@ p {
   #footer {
     height: 5rem;
   }
+
   .footer_text,
   .copy_right {
-     margin-top: 2rem;
-     text-align: center;
-     position: relative;
-     flex-direction: column-reverse;
+    margin-top: 2rem;
+    text-align: center;
+    position: relative;
+    flex-direction: column-reverse;
   }
 
-   .copy_right>p,img {
+  .copy_right>p,
+  img {
     margin-right: 1rem;
     font-size: 14px;
     margin: 0;
     line-height: 35px;
   }
-  }
-  
+
+}
